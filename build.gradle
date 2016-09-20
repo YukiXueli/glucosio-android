@@ -46,9 +46,9 @@ allprojects {
         jcenter()
     }
 
-    ext.buildToolsVer = '24.0.0'
+    ext.buildToolsVer = '24.0.2'
 
-    ext.androidSupportVer = '24.2.1'
+    ext.androidSupportVer = '23.2.1'
     ext.googlePlayServicesVer = '9.4.0'
 
     ext.butterKnifeVer = '8.0.1'
@@ -62,5 +62,5 @@ allprojects {
 }
 
 task wrapper( type: Wrapper ) {
-    gradleVersion = '2.13'
+    gradleVersion = '2.14'
 }
